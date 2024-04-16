@@ -1,0 +1,36 @@
+body {
+  font-family: serif;
+}
+
+body {
+  --main: rgb(220, 56, 78);
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.header {
+  background-color: var(--main);
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+.gradient {
+  display: inline-block;
+  background: linear-gradient(
+    to right,
+    var(--main),
+    rgb(243, 98, 62),
+    rgb(255, 185, 35)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
